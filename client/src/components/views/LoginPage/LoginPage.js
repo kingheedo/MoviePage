@@ -1,3 +1,4 @@
+  
 import React, { useState } from "react";
 import { withRouter } from "react-router-dom";
 import { loginUser } from "../../../_actions/user_actions";
@@ -145,5 +146,3 @@ function LoginPage(props) {
 };
 
 export default withRouter(LoginPage);
-
-
